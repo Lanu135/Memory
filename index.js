@@ -37,6 +37,8 @@ const cards = [
   },
 ]
 
+cards.push(...cards)
+
 cards.sort(() => 0.5 - Math.random())
 
 const cardsBoard = document.querySelector('.cards-board')

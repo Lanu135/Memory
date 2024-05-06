@@ -120,7 +120,7 @@ function checkMatch() {
     chosenCardsIds.forEach((id) => {
       setTimeout(() => {
         img[id].setAttribute('src', './images/cards-bg.jpg')
-      }, 1000)
+      }, 1500)
     })
   }
   chosenCards.splice(0, 2)

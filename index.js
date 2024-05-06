@@ -118,7 +118,9 @@ function checkMatch() {
   } else {
     // flip back the card if is not a match
     chosenCardsIds.forEach((id) => {
-      img[id].setAttribute('src', './images/cards-bg.jpg')
+      setTimeout(() => {
+        img[id].setAttribute('src', './images/cards-bg.jpg')
+      }, 1000)
     })
   }
   chosenCards.splice(0, 2)
